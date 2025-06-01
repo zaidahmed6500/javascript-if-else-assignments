@@ -9,6 +9,7 @@ else{
 }
 
 
+
 // Assignment 2
 var number = prompt("Enter a number");
 
@@ -21,6 +22,8 @@ else{
     alert('Not positive')
 }
 
+
+
 // Assignment 3
 var number = prompt("Enter a number")
 
@@ -31,6 +34,8 @@ else {
     alert('Odd number')
 }
 
+
+
 // Assignment 4
 var username = prompt("Enter username")
 
@@ -40,6 +45,8 @@ if(username ==='admin'){
 else{
     alert('Access denied')
 }
+
+
 
 // Assignment 5
 var num1 = prompt("Enter the first number:");
@@ -52,12 +59,16 @@ var num2 = prompt("Enter the second number:");
     console.log("The numbers are different");
   }
 
+
+
 // Assignment 6
 var num1 = prompt("Enter first number:");
 var num2 = prompt("Enter second number:");
 if (num1 !== null && num2 !== null) {
   alert(Number(num1) > Number(num2) ? "First is larger" : "Second is larger");
 }
+
+
 
 // Assignment 7
 var num = prompt("Enter a number:");
@@ -69,6 +80,8 @@ else{
     alert('within range')
 }
 
+
+
 // Assignment 8
 var score = prompt("Enter your score");
 
@@ -79,40 +92,72 @@ else{
     alert('You failed')
 }
 
+
+
 // Assignment 9
 var temp = prompt("Enter the temperature:");
-if (temp !== null) {
-  alert(Number(temp) > 30 ? "It's hot!" : "It's not hot.");
+if (temp >=30) {
+  alert('Its hot!');
 }
+else{
+    alert('Its not hot')
+}
+
+
 
 // Assignment 10
-var num10 = prompt("Enter a number:");
-if (num10 !== null) {
-  alert(Number(num10) === 0 ? "Zero" : "Not zero");
+var num = prompt("Enter a number:");
+if(num == 0){
+    alert('Zero')
+}
+else{
+    alert('Not zero')
 }
 
+
+
 // Assignment 11
-var age11 = prompt("Enter your age:");
-if (age11 !== null) {
-  console.log(Number(age11) >= 60 ? "You are a senior citizen." : "You are not a senior.");
+var age = prompt("Enter your age:");
+
+if(age >=60){
+    alert('Yor are asenior citizen')
 }
+else {
+    alert('You are not a senior')
+}
+
+
 
 // Assignment 12
 var name = prompt("What is your name?");
-alert(name === "Alice" ? "Hi, Alice!" : "You're not Alice!");
 
-// Assignment 13
-var password = prompt("Enter your password:");
-console.log(password === "12345" ? "Correct password" : "Wrong password");
-
-// Assignment 14
-var hour = prompt("Enter the current hour (0–23):");
-if (hour !== null) {
-  alert(Number(hour) < 12 ? "Good morning!" : "Good afternoon!");
+if(name ==='Alice'){
+    alert('Hi Alice!')
+}
+else{
+    alert('You are not Alice')
 }
 
-// Assignment 15
-var num15 = prompt("Enter a number:");
-if (num15 !== null) {
-  console.log(Number(num15) % 5 === 0 ? "Divisible by 5" : "Not divisible by 5");
+
+
+// Assignment 13
+var password = prompt("What is your name?");
+
+if(password ==='12345'){
+    alert('Password is correct')
+}
+else{
+    alert('Wrong password')
+}
+
+
+
+// Assignment 14
+var hour = prompt("Enter a hour (0-23")
+
+if(hour <12){
+    alert('Good morning!')
+}
+else{
+    alert('Good afternoon!')
 }
